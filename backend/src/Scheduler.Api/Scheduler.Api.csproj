@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup><TargetFramework>net10.0</TargetFramework><UserSecretsId>SqlCrontabScheduler.Api</UserSecretsId></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Scheduler.Infrastructure/Scheduler.Infrastructure.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.15" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
